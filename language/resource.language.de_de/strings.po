@@ -603,3 +603,7 @@ msgstr "Anpassen"
 msgctxt "#60002"
 msgid "Hide Floor"
 msgstr "Verstecke Floor"
+
+msgctxt "#60003"
+msgid "Enable CDArt in Home"
+msgstr "Aktiviere CDArt in Home"

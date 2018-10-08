@@ -1050,6 +1050,18 @@
 						<onclick>Skin.ToggleSetting(HideHomeFloor)</onclick>
 						<selected>Skin.HasSetting(HideHomeFloor)</selected>
 					</control>
+					<control type="radiobutton" id="502">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>60003</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(CdArtHome)</onclick>
+						<selected>Skin.HasSetting(CdArtHome)</selected>
+					</control>
 				</control>
 				<control type="scrollbar" id="61">
 					<left>1060</left>
