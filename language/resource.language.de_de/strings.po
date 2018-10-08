@@ -599,3 +599,7 @@ msgstr "MOD-Settings"
 msgctxt "#60001"
 msgid "Customize"
 msgstr "Anpassen"
+
+msgctxt "#60002"
+msgid "Hide Floor"
+msgstr "Verstecke Floor"
