@@ -157,6 +157,10 @@
 						<label>24000</label>
 						<label2>31200</label2>
 					</item>
+					<item id="5">
+						<label>60000</label>
+						<label2>60001</label2>
+					</item>
 				</content>
 			</control>
 			<control type="image">

@@ -591,3 +591,11 @@ msgstr "OPTIONEN"
 msgctxt "#31960"
 msgid "RADIO"
 msgstr "RADIO"
+
+msgctxt "#60000"
+msgid "MOD-Settings"
+msgstr "MOD-Settings"
+
+msgctxt "#60001"
+msgid "Customize"
+msgstr "Anpassen"
