@@ -1179,7 +1179,7 @@
 			<include>Window_OpenClose_Animation</include>
 			<control type="button" id="20">
 				<description>Power push button</description>
-				<left>55</left>
+				<left>110</left>
 				<top>0</top>
 				<width>45</width>
 				<height>45</height>
@@ -1189,13 +1189,13 @@
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
 				<onleft>21</onleft>
-				<onright>21</onright>
+				<onright>22</onright>
 				<onup>9002</onup>
 				<ondown>9003</ondown>
 			</control>
 			<control type="image">
 				<description>Power Icon</description>
-				<left>60</left>
+				<left>115</left>
 				<top>5</top>
 				<width>35</width>
 				<height>35</height>
@@ -1204,7 +1204,7 @@
 			</control>
 			<control type="button" id="21">
 				<description>Favourites push button</description>
-				<left>0</left>
+				<left>55</left>
 				<top>0</top>
 				<width>45</width>
 				<height>45</height>
@@ -1213,8 +1213,33 @@
 				<onclick>ActivateWindow(Favourites)</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
-				<onleft>20</onleft>
+				<onleft>22</onleft>
 				<onright>20</onright>
+				<onup>9002</onup>
+				<ondown>9003</ondown>
+			</control>
+			<control type="image">
+				<description>Favourites Icon</description>
+				<left>60</left>
+				<top>5</top>
+				<width>35</width>
+				<height>35</height>
+				<aspectratio>keep</aspectratio>
+				<texture>icon_favourites.png</texture>
+			</control>
+			<control type="button" id="22">
+				<description>Skin Settings</description>
+				<left>0</left>
+				<top>0</top>
+				<width>45</width>
+				<height>45</height>
+				<label>1036</label>
+				<font></font>
+				<onclick>ActivateWindow(SkinSettings)</onclick>
+				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<onleft>20</onleft>
+				<onright>21</onright>
 				<onup>9002</onup>
 				<ondown>9003</ondown>
 			</control>
@@ -1225,7 +1250,7 @@
 				<width>35</width>
 				<height>35</height>
 				<aspectratio>keep</aspectratio>
-				<texture>icon_favourites.png</texture>
+				<texture>icon_home.png</texture>
 			</control>
 		</control>
 		<control type="group">
