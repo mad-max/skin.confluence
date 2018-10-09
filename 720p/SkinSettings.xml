@@ -1038,6 +1038,17 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
+					<control type="button" id="503">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>60004</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>RunScript(script.skinshortcuts,type=manage&amp;group=mainmenu)</onclick>
+					</control>
 					<control type="radiobutton" id="501">
 						<width>750</width>
 						<height>40</height>
@@ -1062,6 +1073,18 @@
 						<onclick>Skin.ToggleSetting(CdArtHome)</onclick>
 						<selected>Skin.HasSetting(CdArtHome)</selected>
 					</control>
+					<control type="radiobutton" id="504">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>LowerMenu</label>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>menuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(LowerMenu)</onclick>
+						<selected>Skin.HasSetting(LowerMenu)</selected>
+	</control>
 				</control>
 				<control type="scrollbar" id="61">
 					<left>1060</left>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<include file="Defaults.xml" />
+	<include file="Variables.xml" />
 	<include file="Includes_DialogSelect.xml" />
 	<include file="ViewsVideoLibrary.xml" />
 	<include file="ViewsMusicLibrary.xml" />
@@ -16,6 +17,7 @@
 	<include file="IncludesPVR.xml" />
 	<include file="IncludesBackgroundBuilding.xml" />
 	<include file="ViewMusicShowcase.xml" />
+	<include file="script-skinshortcuts-includes.xml"/>
 	<!-- CONSTANTS -->
 	<constant name="FanartCrossfadeTime">500</constant>
 	<constant name="IconCrossfadeTime">400</constant>

@@ -607,3 +607,7 @@ msgstr "Verstecke Floor"
 msgctxt "#60003"
 msgid "Enable CDArt in Home"
 msgstr "Aktiviere CDArt in Home"
+
+msgctxt "#60004"
+msgid "Customize Home"
+msgstr "Hauptmenü anpassen"

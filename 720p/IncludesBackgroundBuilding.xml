@@ -10,6 +10,14 @@
 			<visible>![Skin.HasSetting(UseCustomBackground) + !String.IsEmpty(Skin.String(CustomBackgroundPath))]</visible>
 			<include>VisibleFadeEffect</include>
 		</control>
+		<control type="multiimage">
+			<include>FullscreenDimensions</include>
+			<include>AnimatedBackgroundAnimation</include>
+			<imagepath background="true">$VAR[HomeBackgroundVar]</imagepath>
+			<timeperimage>5000</timeperimage>
+			<fadetime>800</fadetime>
+			<randomize>true</randomize>
+</control>
 		<control type="image">
 			<depth>DepthBackground</depth>
 			<description>User Set Background Image</description>
